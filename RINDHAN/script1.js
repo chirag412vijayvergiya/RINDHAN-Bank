@@ -14,6 +14,12 @@ const tabsContent = document.querySelectorAll(".operations__content");
 const btnLogin = document.querySelector(".loginbtn");
 const inputLoginUsername = document.querySelector("#username");
 const inputLoginPin = document.querySelector("#password");
+const emailid = document.getElementById("email");
+const firstName = document.getElementById("first-name");
+const lastName = document.getElementById("last-name");
+const message = document.getElementById("message");
+const phone = document.getElementById("phone");
+const submit = document.querySelector(".submitbtn");
 //Modal Window
 
 //Modal Window 2 for submit
@@ -217,3 +223,20 @@ tabsContainer.addEventListener("click", function (e) {
     .querySelector(`.operations__content--${clicked.dataset.tab}`)
     .classList.add("operations__content--active");
 });
+
+submit.addEventListener("click", function (e) {
+  e.preventDefault();
+  sendEmail();
+});
+const sendEmail = function () {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "XYZ@gmail.com",
+    Password: "API KEY ",
+    To: "XYZ@gmail.com",
+    From: emailid.value,
+    Subject: "New Contact Enquiry(RINDHAN BANK)",
+    Body: `Name: ${firstName.value} ${lastName.value} <br/> Email: ${emailid.value} <br/> Phone: ${phone.value} <br/> Message: ${message.value}`,
+  }).then((message) => alert(message));
+  console.log(emailid.value);
+};

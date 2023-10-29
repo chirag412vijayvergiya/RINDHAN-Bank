@@ -11,6 +11,9 @@
     />
     <link rel="stylesheet" href="style1.css" />
     <title>Rindhan | When Banking meets Minimalist</title>
+    <!--  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--  -->
     <script defer src="script1.js"></script>
   </head>
   <body>
@@ -337,6 +340,7 @@
       </form>
     </div>
     <!--  -->
+
     <div class="modal2 hidden">
       <button class="btn--close-modal2">&times;</button>
       <h2 id="center">Raise Issue</h2>
@@ -403,29 +407,31 @@
             </span>
           </div>
         </div>
+
+        <button class="submitbtn">
+          Submit
+          <svg
+            stroke="currentColor"
+            fill="none"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <desc></desc>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+            <path
+              d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5"
+            ></path>
+          </svg>
+        </button>
       </form>
-      <button class="submitbtn">
-        Submit
-        <svg
-          stroke="currentColor"
-          fill="none"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          height="1em"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <desc></desc>
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <line x1="10" y1="14" x2="21" y2="3"></line>
-          <path
-            d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5"
-          ></path>
-        </svg>
-      </button>
     </div>
+
     <!--  -->
     <button class="btnp btn--show-modal2 z-">🤔 Facing any issue?</button>
     <div class="overlay hidden"></div>
