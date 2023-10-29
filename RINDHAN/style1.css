@@ -1115,6 +1115,7 @@ body {
   font-family:sans-serif;
   border-radius: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .z-{
