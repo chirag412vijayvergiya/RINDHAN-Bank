@@ -230,7 +230,7 @@ submit.addEventListener("click", function (e) {
 });
 const sendEmail = function () {
   Email.send({
-    SecureToken: "6f24e761-2127-4f90-a393-ef12a64d3ffd",
+    SecureToken: "#",
     To: "chirag4vv@gmail.com",
     From: emailid.value,
     Subject: "New Contact Enquiry(RINDHAN BANK)",
