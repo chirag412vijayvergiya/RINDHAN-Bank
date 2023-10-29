@@ -230,10 +230,8 @@ submit.addEventListener("click", function (e) {
 });
 const sendEmail = function () {
   Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "XYZ@gmail.com",
-    Password: "API KEY ",
-    To: "XYZ@gmail.com",
+    SecureToken: "6f24e761-2127-4f90-a393-ef12a64d3ffd",
+    To: "chirag4vv@gmail.com",
     From: emailid.value,
     Subject: "New Contact Enquiry(RINDHAN BANK)",
     Body: `Name: ${firstName.value} ${lastName.value} <br/> Email: ${emailid.value} <br/> Phone: ${phone.value} <br/> Message: ${message.value}`,
