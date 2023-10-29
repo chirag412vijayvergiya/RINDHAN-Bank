@@ -41,7 +41,7 @@
             >
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+            <a class="nav__link nav__link--btn btn--show-modal1" href="#"
               >Open account</a
             >
           </li>
@@ -278,7 +278,9 @@
           "Unlock Your Financial Future: Start with RinDhan Today!"
         </h3>
       </div>
-      <button class="btn btn--show-modal">Open your free account today!</button>
+      <button class="btn btn--show-modal1">
+        Open your free account today!
+      </button>
     </section>
     <footer>
       <img src="img/white icon.jpg" alt="Logo" class="footer__logo" />
@@ -316,8 +318,8 @@
       <p>©2023 Chirag Vijayvergiya | All Rights Reserved</p>
     </footer>
 
-    <div class="modal hidden">
-      <button class="btn--close-modal">&times;</button>
+    <div class="modal1 hidden">
+      <button class="btn--close-modal1">&times;</button>
       <!-- <h2 class="modal__header">
          Open your bank account 
             <br />
@@ -334,7 +336,98 @@
         <button class="loginbtn">Next step &rarr;</button>
       </form>
     </div>
-
+    <!--  -->
+    <div class="modal2 hidden">
+      <button class="btn--close-modal2">&times;</button>
+      <h2 id="center">Raise Issue</h2>
+      <form class="flem">
+        <div class="page">
+          <div class="field field_v1">
+            <label for="first-name" class="ha-screen-reader">First name</label>
+            <input
+              id="first-name"
+              class="field__input"
+              placeholder=""
+              value=""
+              required
+            />
+            <span class="field__label-wrap" aria-hidden="true">
+              <span class="field__label">First name</span>
+            </span>
+          </div>
+          <div class="field field_v2">
+            <label for="last-name" class="ha-screen-reader">Last name</label>
+            <input
+              id="last-name"
+              class="field__input"
+              placeholder=""
+              value=""
+            />
+            <span class="field__label-wrap" aria-hidden="true">
+              <span class="field__label">Last name</span>
+            </span>
+          </div>
+          <div class="field field_v3">
+            <label for="phone" class="ha-screen-reader">Phone</label>
+            <input
+              id="phone"
+              class="field__input"
+              placeholder=""
+              value=""
+              required
+            />
+            <span class="field__label-wrap" aria-hidden="true">
+              <span class="field__label">Phone</span>
+            </span>
+          </div>
+          <div class="field field_v4">
+            <label for="email" class="ha-screen-reader">E-mail</label>
+            <input
+              id="email"
+              class="field__input"
+              placeholder=""
+              value=""
+              required
+            />
+            <span class="field__label-wrap" aria-hidden="true">
+              <span class="field__label">E-mail</span>
+            </span>
+          </div>
+        </div>
+        <div class="page-message">
+          <div class="field field_v5">
+            <label for="message" class="ha-screen-reader">Message</label>
+            <input id="message" class="field__input" placeholder="" value="" />
+            <span class="field__label-wrap" aria-hidden="true">
+              <span class="field__label">Message</span>
+            </span>
+          </div>
+        </div>
+      </form>
+      <button class="submitbtn">
+        Submit
+        <svg
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <desc></desc>
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+          <path
+            d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <!--  -->
+    <button class="btnp btn--show-modal2 z-">🤔 Facing any issue?</button>
     <div class="overlay hidden"></div>
     <script
       type="module"
