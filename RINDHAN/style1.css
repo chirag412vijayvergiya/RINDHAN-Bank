@@ -536,45 +536,6 @@ h4 {
   padding: 2rem 5rem;
 }
 
-/* FOOTER */
-/* .footer {
-  padding: 10rem 3rem;
-  background-color: #37383d;
-}
-
-.footer__nav {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
-}
-
-.footer__item {
-  margin-right: 4rem;
-}
-
-.footer__link {
-  font-size: 1.6rem;
-  color: #eee;
-  text-decoration: none;
-}
-
-.footer__logo {
-  height: 5rem;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-}
-
-.footer__copyright {
-  font-size: 1.4rem;
-  color: #aaa;
-  text-align: center;
-}
-
-.footer__copyright .footer__link {
-  font-size: 1.4rem;
-} */
 footer {
   background-color: #37383d;
   padding: 1rem 2rem;
@@ -743,6 +704,7 @@ HELPERS
   background-color: transparent;
 
 }
+
 .ha-screen-reader {
   width: var(--ha-screen-reader-width, 1px);
   height: var(--ha-screen-reader-height, 1px);
@@ -772,7 +734,6 @@ RESET STYLES
   font-size: 26px;
 
 }
-
 
 .field__input {
   /* --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #767676); */
@@ -821,11 +782,8 @@ CORE STYLES
 
 }
 .page {
-
-  
   grid-template-columns: repeat(2, minmax(0, 1fr));
 
-  
 }
 
 .field {
@@ -844,8 +802,6 @@ CORE STYLES
   color: var(--fieldColor, rgba(0, 0, 0, 0.87));
   /* border-bottom: 2px solid rgb(166, 166, 166); */
   
-
-
 }
 
 .field__input {
@@ -940,7 +896,6 @@ CORE STYLES
     transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
     max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms; 
 
-
 }
 
 .field__input:focus ~ .field__label-wrap .field__label,
@@ -952,7 +907,6 @@ CORE STYLES
   font-size: var(--fieldHintFontSizeHover, inherit);
   transition-delay: var(--fieldHintTransitionDelay, 0.2s);
 
-
 }
 
 /* 
@@ -963,9 +917,6 @@ effect 1
   border-bottom: var(--uiFieldBorderWidth) solid var(--uiFieldBorderColorActive);
   color:antiquewhite;
   transition: opacity 0.2s ease-out;
-  
-
-
 
 }
 
@@ -1050,40 +1001,6 @@ body {
   display: grid;
   grid-gap: 30px;
 }
-
-/* .linktr {
-  order: -1;
-  padding: 1.75rem;
-  text-align: center;
-}
-
-.linktr__goal {
-  background-color: rgb(209, 246, 255);
-  color: rgb(8, 49, 112);
-  box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
-  border-radius: 2rem;
-  padding: 0.5rem 1.25rem;
-}
-
-@media (min-width: 1024px) {
-  .linktr {
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-  }
-}
-
-.r-link {
-  --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
-  --uirLinkTextColor: var(--rLinkTextColor);
-  --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
-
-  display: var(--uirLinkDisplay) !important;
-  color: var(--uirLinkTextColor) !important;
-  text-decoration: var(--uirLinkTextDecoration) !important;
-} */
-
-
  .modal2 .submitbtn{
   background-color: #4caf50;
   margin: 10px 165px 10px;
